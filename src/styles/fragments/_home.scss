@@ -1,0 +1,43 @@
+.bg__grey{
+    background-color:rgba(122, 122, 122, 0.856);
+}
+
+.Fontligth{
+    color: #fff;
+}
+
+.cardHover{
+        img {
+           height : 22rem;
+
+    }
+
+    .cardHover__hover{
+        position: absolute;
+        top:0;
+        width: 100%;
+        height:77.9%;
+        background: rgba(255, 255, 255, 0.8);
+        transition: all 300ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+    }
+}
+
+.cardHover:hover > .cardHover__hover{
+
+    opacity: 1 ;
+    visibility: visible;
+}
+
+.cardHover:hover > img{
+
+    overflow:hidden;
+    
+}
+
+.listStyleNone{
+    list-style: none;
+}
+//goUp
